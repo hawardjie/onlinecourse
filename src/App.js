@@ -5,6 +5,15 @@ function App() {
   return (
     <div>
       <div className="player-wrapper">
+        <ReactPlayer className='react-player' controls width='100%' height='100%' url='https://youtu.be/KIPq6GVk6AI' />
+      </div>
+      <div className="player-wrapper">
+        <ReactPlayer className='react-player' controls width='100%' height='100%' url='https://youtu.be/XOhm8CX7k58' />
+      </div>
+      <div className="player-wrapper">
+        <ReactPlayer className='react-player' controls width='100%' height='100%' url='https://youtu.be/9llgnBI-0QY' />
+      </div>
+      <div className="player-wrapper">
         <ReactPlayer className='react-player' controls width='100%' height='100%' url='https://youtu.be/06b2RzTX18s' />
       </div>
       <div className="player-wrapper">
